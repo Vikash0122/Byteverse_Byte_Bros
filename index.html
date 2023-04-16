@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-ToLet-Find your perfect rental accomodation</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="\assets\images\favicon.ico" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+   <!--Hello-->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo1">
+        <ion-icon name="business-outline"></ion-icon> E-ToLet
+      </a>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+
+            <a href="add-prop.html" class="navbar-link" data-nav-link>Add Property</a>
+
+          </li>
+
+          <li>
+            <a href="#aboutus" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li>
+        
+
+            <a href="#foot" class="navbar-link" data-nav-link>Contact</a>
+
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="login.html" class="btn btn-secondary">Login</a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-hidden="true" class="close-icon"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="article">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-bg">
+            <video autoplay muted loop>
+              <source src="/pexels-kindel-media-7578550-3840x2160-30fps.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+           
+            <div class="hero-content">
+
+              <h1 class="h1 hero-title">
+                Find the perfect place to call <span class="span">Home</span> 
+              </h1>
+
+              <p class="hero-text">
+                Find your perfect match with our rental listings.
+              </p>
+
+            </div>
+          </div>
+
+          <div class="hero-form-wrapper">
+            <div class="form-tab">
+
+              <button class="tab-btn active" data-tab-btn>Buy</button>
+              <button class="tab-btn" data-tab-btn>Sell</button>
+              <button class="tab-btn" data-tab-btn>Rent</button>
+
+            </div>
+
+            <form action="" class="hero-form">
+
+              <div class="input-wrapper">
+
+                <label for="search" class="input-label">Search : *</label>
+
+                <input type="search" name="search" id="search" placeholder="Search your home" required
+                  class="input-field">
+
+                <ion-icon name="search-outline"></ion-icon>
+
+              </div>
+
+              <div class="input-wrapper">
+                <label for="category" class="input-label">Select Categories:</label>
+
+                <select name="category" id="category" class="dropdown-list">
+
+                  <option value="house">House</option>
+                  <option value="apartment">Apartment</option>
+                  <option value="offices">Offices</option>
+                  <option value="townhome">Townhome</option>
+
+                </select>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="min-price" class="input-label">Min Price :</label>
+
+                <select name="min-price" id="min-price" class="dropdown-list">
+
+                  <option value="min price">Min Price</option>
+                  <option value="500">500</option>
+                  <option value="1000">1000</option>
+                  <option value="2000">2000</option>
+                  <option value="3000">3000</option>
+                  <option value="4000">4000</option>
+                  <option value="5000">5000</option>
+                  <option value="6000">6000</option>
+
+                </select>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="max-price" class="input-label">Max Price :</label>
+
+                <select name="max-price" id="max-price" class="dropdown-list">
+
+                  <option value="max price">Max Price</option>
+                  <option value="500">500</option>
+                  <option value="1000">1000</option>
+                  <option value="2000">2000</option>
+                  <option value="3000">3000</option>
+                  <option value="4000">4000</option>
+                  <option value="5000">5000</option>
+                  <option value="6000">6000</option>
+
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Search now</button>
+
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-label="service">
+        <div class="container">
+
+          <h2 class="h2 section-title">How It Works</h2>
+
+          <p class="section-text">
+            A great plateform to buy, sell and rent your properties without any agent or commisions.
+          </p>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Evaluate Property</h3>
+
+                <p class="card-text">
+                  
+                  Depends on location, condition, size, and demand.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Meeting with Owner</h3>
+
+                <p class="card-text">
+                  We value transparency and honesty to provide acccurate information
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="key"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Close the Deal</h3>
+
+                <p class="card-text">
+                  Take the leap and make your dream into a reality
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROPERTY
+      -->
+
+      <section class="section property" aria-label="property">
+        <div class="container">
+
+          <h2 class="h2 section-title">Featured Properties</h2>
+
+          <p class="section-text">
+            We provide a variety of properties for you to buy, sell, or rent. Whether you're looking for a cozy apartment in the city, a spacious house in the suburbs, or a commercial property for your business, we have something to fit your needs and budget
+          </p>
+
+          <ul class="property-list">
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="\assets\images\flatimage1.jpg" width="800" height="533" loading="lazy"
+                    alt="10765 Hillshire Ave, Baton Rouge, LA 70810, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Off, Senapati Bapat Marg, Lower Parel, Mumbai, Maharashtra 400013</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">200sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">2 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">2 Baths </span>
+                    </li>
+
+                  </ul>
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">₹12000</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+
+                        <span>5.0(304)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="\assets\images\flatimage2.jpg" width="800" height="533" loading="lazy"
+                    alt="59345 STONEWALL DR, Plaquemine, LA 70764, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">47, Maria Nagar, Chikkakannalli, 560035, Sarjapur Road, Bengaluru</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">150sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">1 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">1 Baths </span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">₹6500</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+
+                        </div>
+
+                        <span>4.0(130)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="\assets\images\flatimage3.jpg" width="800" height="533" loading="lazy"
+                    alt="3723 SANDBAR DR, Addis, LA 70710, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                       Janakpuri Block C3, Sector-7A/17, WEA, Channa Market, Delhi</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">600sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">2 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">2 Baths</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">₹15000</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        
+                        </div>
+
+                        <span>4.0(23)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="\assets\images\flatimage4.jpg" width="800" height="533" loading="lazy"
+                    alt="LOT 21 ROYAL OAK DR, Prairieville, LA 70769, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"> My Home Avatar, Ring Road, Telangana, 500075</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">700sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">3 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">3 Baths</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">₹22500</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <!-- <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon> -->
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+
+                        <span>3.0(30)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="\assets\images\flatimage5.webp" width="800" height="533" loading="lazy"
+                    alt="710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">7Niagree Yamuna Green, Bailey Road, Patna, 800014</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">500sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">1 Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">2 Baths</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">₹8000</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <!-- <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon> -->
+                        </div>
+
+                        <span>2.0(30)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner img-holder" style="--width: 800; --height: 533;">
+                  <img src="\assets\images\flatimage6.webp" width="800" height="533" loading="lazy"
+                    alt="5133 MCLAIN WAY, Baton Rouge, LA 70809, USA" class="img-cover">
+                </figure>
+
+                <button class="card-action-btn" aria-label="add to favourite">
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Brigade Orchards, Devanahalli North, Bengaluru, 562110</a>
+                  </h3>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">900sqf</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4Beds</span>
+                    </li>
+
+                    <li class="card-item">
+                      <div class="item-icon">
+                        <ion-icon name="man-outline"></ion-icon>
+                      </div>
+
+                      <span class="item-text">4 Baths</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-meta">
+
+                    <div>
+                      <span class="meta-title">Price</span>
+
+                      <span class="meta-text">₹30000</span>
+                    </div>
+
+                    <div>
+                      <span class="meta-title">Rating</span>
+
+                      <span class="meta-text">
+
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+
+                        <span>5.0(18)</span>
+
+                      </span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="aboutus">
+        <div>
+          <h3>User-Friendly Website</h3>
+          <p>E-ToLet values transparency and honesty, and we always strive to provide accurate information and fair pricing to our clients.</p>
+        </div>
+        <div>
+          <h3>Wide Range of Properties</h3>
+          <p>We offer a wide range of rental properties in various locations, all at competitive prices.</p>
+        </div>
+        <div>
+          <h3>Expert Advice</h3>
+          <p>We also offer a range of useful tools and resources, including property listings, virtual tours, and expert advice to help you find your ideal home.</p>
+        </div>
+        <div>
+          <h3>Special Offer for Students</h3>
+          <p>By partnering with local landlords and property owners, E-ToLet offers students a 
+            reliable and convenient way to find accommodation at a discounted price.</p>
+        </div>
+        <div>
+          <h3>Building a Rental Community</h3>
+          <p>We aim to create a community-driven platform where students can connect with landlords and roommates, and where they can find resources and support to make their rental experience stress-free.</p>
+        </div>
+        <div>
+          <h3>No Brokerage</h3>
+          <p>Creating a hassle-free and cost-effective property rental experience by eliminating the need for brokers and empowering renters and landlords to connect directly.</p>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section id="contactus" class="section contact" aria-label="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Have Question ? Get in touch!</h2>
+
+          <p class="section-text">
+            A great plateform to buy, sell and rent your properties without any agent or commisions.
+          </p>
+
+          <!-- <button class="btn btn-primary">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <span class="span" >Contact us</span>
+          </button> -->
+          <a href="contact-us.html" class="btn btn-secondary">Contact Us</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="wrapper">
+            <h2 class="h2 section-title">Subscribe to E-ToLet</h2>
+
+            <p class="section-text">Subscribe to get latest updates and information.</p>
+          </div>
+
+          <form action="" class="newsletter-form" id="subscribekro">
+            <input type="email" name="email_address" placeholder="Enter your email :" aria-label="Enter your email"
+              required class="email-field">
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo1">
+            <ion-icon name="business-outline"></ion-icon> E-ToLet
+          </a>
+
+          <p class="footer-text">
+            A great plateform to buy, sell and rent your properties without any agent or commisions.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">About us</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Services</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Pricing</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Blog</span>
+            </a>
+          </li>
+
+
+          <!-- <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Login</span>
+            </a>
+          </li> -->
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Terms of Services</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Privacy Policy</span>
+            </a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Listing</span>
+            </a>
+          </li> -->
+
+          <!-- <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward"></ion-icon>
+
+              <span class="span">Contact</span>
+            </a>
+          </li> -->
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Details</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location-outline"></ion-icon>
+
+            <address class="address">
+              NIT Patna,<br>
+              Patna 800005 ,<br>
+              Bihar, India
+              <a href="https://maps.app.goo.gl/2GspebPxFddvBghR8" class="address-link">View on Google map</a>
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:contact@example.com" class="footer-link">contact@E-ToLet.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+91 634-468-8540" class="footer-link">+91 634-468-8540</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div id="foot" class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright1">
+          &copy; 2023 E-ToLet. All Rights Reserved by <a href="#" class="copyright-link">Byte Bros</a>.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/etoletcare/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+  
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src=""></script>
+</body>
+
+</html>
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-ToLet | Add Property</title>
+  <link rel="stylesheet" href="./assets/css/add-prop.css">
+
+</head>
+<body>
+    <header>
+        <h1><span class="icon"></span> Add Property</h1>
+      </header>
+      
+      
+    <form>
+        <label for="property-type">Property type:</label>
+        <select id="property-type" name="property-type">
+          <option value="apartment">Flat</option>
+          <option value="house">House</option>
+          <option value="villa">PG</option>
+        </select>
+
+        <label for="property-status">Status:</label>
+        <select id="property-status" name="property-status">
+          <option value="Sale">For Sale</option>
+          <option value="Rent">For Rent</option>
+        </select>
+        
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" min="0" step="1" placeholder="Enter price in INR" required>
+
+        <label for="area">Area:</label>
+        <input type="number" id="area" name="area" min="0" step="1" placeholder="Enter area in square feet" required>
+
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location"placeholder="Enter complete address" required>
+        
+        <label for="bedrooms">Number of bedrooms:</label>
+        <input type="number" id="bedrooms" min="0" step="1" name="bedrooms">
+        
+        <label for="bathrooms">Number of bathrooms:</label>
+        <input type="number" id="bathrooms" min="0" step="1" name="bathrooms">
+        
+        <label for="Contact-details">Contact Details:</label>
+        <textarea id="description" name="description" placeholder="Enter Name, Phone, Email" required></textarea>
+
+        <label for="image">Add Images:</label>
+<input type="file" id="image" name="image">
+
+<div class="submit-btn">
+    <input type="submit" value="Submit">
+</div>
+      </form>
+      
+</body>
+</html>
