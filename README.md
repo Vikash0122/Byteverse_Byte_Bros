@@ -6,7 +6,7 @@ A great platform to buy, sell and rent properties.
 ## 🔗Relevant Links
 
 1. **Presentation Deck**: [Click Here](https://drive.google.com/file/d/1zEghNsXcz8c-enqwfBGUOF3yAYLdFt6O/view?usp=share_link)
-2. **Video Pitch**: [Watch Here]()
+2. **Video Pitch**: [Watch Here](https://youtu.be/q_vfOkSi74A)
 
 <br />
 
